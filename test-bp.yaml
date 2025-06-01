@@ -1,0 +1,11 @@
+blueprint:
+  name: Motion Light Tutorial
+  description: Turn a light on based on detected motion
+  domain: automation
+  input:
+    motion_sensor:
+      name: Motion Sensor
+      description: This sensor will be synchronized with the light.
+    target_light:
+      name: Lights
+      description: The lights to keep in sync.
